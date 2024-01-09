@@ -12,4 +12,4 @@ add_definitions(-DCMAKE_EXPORT_COMPILE_COMMANDS=ON)
 set_property(TARGET ExtraRepairPatch PROPERTY CXX_STANDARD 20)
 set_property(TARGET ExtraRepairPatch PROPERTY CXX_STANDARD_REQUIRED ON)
 
-set_target_properties(ExtraRepairPatch PROPERTIES LIBRARY_OUTPUT_DIRECTORY "../bin" SUFFIX ".asi")
+set_target_properties(ExtraRepairPatch PROPERTIES LIBRARY_OUTPUT_DIRECTORY "../../bin" SUFFIX ".asi")
