@@ -17,4 +17,4 @@ set_property(TARGET ExtraRepairPatch PROPERTY CXX_STANDARD_REQUIRED ON)
 
 target_link_libraries(ExtraRepairPatch PRIVATE ScriptHookV)
 
-set_target_properties(ExtraRepairPatch PROPERTIES LIBRARY_OUTPUT_DIRECTORY "../../bin" SUFFIX ".asi")
+set_target_properties(ExtraRepairPatch PROPERTIES LIBRARY_OUTPUT_DIRECTORY "../bin" SUFFIX ".asi")
